@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(3,33.3%);
+  }
+  .item{
+    border: 1px solid #ddd;
+    background: #ccc;
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 1.5rem;
+  }
+  .item:nth-child(9){
+    grid-row: 3 / span 3 ;
+    grid-column: 1 / span 2 ;
+  }
+</style>
+<body>
+  <div class="grid">
+    <div class="item">Item1</div>
+    <div class="item">Item2</div>
+    <div class="item">Item3</div>
+    <div class="item">Item4</div>
+    <div class="item">Item5</div>
+    <div class="item">Item6</div>
+    <div class="item">Item7</div>
+    <div class="item">Item8</div>
+    <div class="item">Item9</div>
+    <div class="item">Item10</div>
+    <div class="item">Item11</div>
+    <div class="item">Item12</div>
+    <div class="item">Item13</div>
+    <div class="item">Item14</div>
+    <div class="item">Item15</div>
+    <div class="item">Item16</div>
+  </div>
+</body>
+</html>

@@ -60,5 +60,6 @@
   }
   .card .list {
     text-align: left;
+    color: transparent;
   }
 }
